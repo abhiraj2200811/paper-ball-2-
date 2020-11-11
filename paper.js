@@ -14,7 +14,7 @@ class Paper  {
     this.x=x
     this.y=y
     this.radius=r
-    this.image=loadImage("/paperball-master/paper.png")
+    this.image=loadImage("/paper.png")
     this.body=Bodies.circle(this.x, this.y, this.radius , options)
     World.add(world, this.body)
     }
